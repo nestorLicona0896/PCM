@@ -196,7 +196,15 @@ body div {
     align-items: center;
     justify-content: center;
     gap: 2px;
-    filter: opacity(0.55);
+    color: black;
+}
+
+.demo-bg {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    opacity: 0.6;
+    width: 100px;
 }
 
 #mainSection #banner2MainSection {
@@ -207,20 +215,24 @@ body div {
     justify-content: center;
     border-radius: 2px;
     gap: 2px;
-    filter: opacity(0.55);
+    color: black;
 }
 
 #banner1MainSection .article {
+    margin: 0;
+    padding: 0;
     min-height: 100%;
     min-width: 100%;
     border-radius: 2px;
-    display: flex;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-size: 19px;
+    font-weight: bold;
 }
 
 #banner2MainSection .article {
@@ -230,8 +242,8 @@ body div {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: balck;  
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -268,13 +280,13 @@ body div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-radius: 2px;
-    border: solid black 1px;
 }
   
 .grid-item {
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 .grid-container .grid-item img {

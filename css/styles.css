@@ -91,6 +91,17 @@
   border-radius: 5px 0 5px 0;
 }
 
+.sellest {
+  background:crimson;
+  color: white;
+  padding: 5px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px 0 5px 0;
+}
+
 #demo #flechaSliderIzq, #demo1 #flechaSliderIzq , #demo2 #flechaSliderIzq{
   border: solid white 2px;
   height: 45px;
