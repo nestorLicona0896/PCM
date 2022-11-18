@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.card {
+  max-width: 90%;
+  box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.card-head {
+  height: 325px;
+  background: lightgoldenrodyellow;
+  /*background: #fa782e;*/
+  border-radius: 5px 5px 0 0;
+  
+  /* Old browsers */
+  /*background: -moz-linear-gradient(-45deg, #d66b2d 8%, #c82930 83%);
+  /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(-45deg, #d66b2d 8%, #c82930 83%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #e0ecde 8%, #68b2a0  83%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=' #d66b2d', endColorstr='#c82930', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */ 
+  
+}
+
+/* PRODUCT'S NAME*/
+.card-head h2 {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  border-left: azure;
+  border-right: azure;
+  color: black;
+  text-decoration: underline;
+  font-weight: bolder;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+
+/* PRODUCT'S PRICE  */
+.card-head .price {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  background: black;
+  color: azure;
+}
+
+.card-body p {
+  margin: 5px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: left;
+  
+}
+
+.card-body {
+  height: 150px;
+  background: azure;
+  border-radius: 0 0 5px 5px;
+}
+
+
+.card-body button {
+  border: solid black 2px;
+  outline: 0;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 2px;
+  box-sizing: content-box;
+}
+
+.new {
+  background:green;
+  color: white;
+  padding: 5px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px 0 5px 0;
+}
+
+#demo #flechaSliderIzq, #demo1 #flechaSliderIzq , #demo2 #flechaSliderIzq{
+  border: solid white 2px;
+  height: 45px;
+  width: 45px;
+  background: linear-gradient(135deg,  #c82930 8%, #d66b2d  83%);
+  border-radius: 25px;
+  top: 50%;
+}
+
+#demo #flechaSliderDer, #demo1 #flechaSliderDer, #demo2 #flechaSliderDer{
+  border: solid white 2px;
+  height: 45px;
+  width: 45px;
+  background: linear-gradient(135deg,  #c82930 8%, #d66b2d  83%);
+  border-radius: 25px;
+  top: 50%;
+}

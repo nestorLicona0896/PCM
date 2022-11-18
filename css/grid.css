@@ -1,0 +1,333 @@
+/* css home page */
+body {
+    background: linear-gradient(135deg,  #f4f5f7 8%, #e0e8f0 92%);
+}
+
+body div {
+    padding: 0px;
+    margin: 0px;
+    float: none;
+}
+
+#header1 #headerColumn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* css 4 search box header */
+
+.topnav input[type=text] {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    margin: 0;
+    font-size: 22px;
+    height: 50px;
+    width: 250px;   
+    border: solid black 1px; 
+}
+
+.topnav button {
+    width: 50px;
+    height: 50px;  
+    background: #ddd;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.topnav button:hover{
+    background:whitesmoke;
+}
+
+/* css navbar & navbar menu */
+#navigationBar{ 
+    margin-bottom: 10px; 
+}
+
+#navbarNav #mainMenu {
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    column-gap: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navigationBar #navigationColumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbarNav #mainMenu li {
+    list-style:none;
+    padding: 0px;
+    margin: 0px;  
+    height: fit-content; 
+    font-size: large;
+}
+
+#mainMenu a {
+    height: fit-content;
+    text-align: center;
+    padding: 0px;
+    margin: 0px; 
+    border-bottom: solid black 5px;
+}
+
+#mainMenu a:hover{
+    color: whitesmoke;
+    border-bottom: whitesmoke 5px;
+}
+
+.nav-item ul {
+    padding: 0px;
+    margin: 0px;  
+    margin-left: 40PX; 
+}
+
+
+.nav-item #aboutMenu { 
+    margin-left: 140px;  
+}
+
+#navbarNav #cartSmsMenu li {
+    list-style:none;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    margin-inline: 15px;      
+}
+
+#navbarNav #cartSmsMenu a{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 25px;    
+}
+
+#navbarNav #cartSmsMenu img{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    border-color: black;
+    border-radius: 25px;
+}
+
+#navbarNav #cartSmsMenu img:hover {
+    background-color: crimson;
+}
+
+#navbarNav #mediaMenu li {
+    list-style:none;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    margin-inline: 15px;
+}
+
+#navbarNav #mediaMenu img{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 25px;
+}
+
+#navbarNav #mediaMenu a{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 25px;    
+}
+
+#navbarNav #mediaMenu img:hover{
+    background-color: crimson;
+}
+
+/* css slider */
+
+#demo {
+    margin: 0;
+    padding: 0;
+}
+
+#demo img {
+    margin: 0;
+    padding: 0;
+    border: solid white 1px;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 300px;
+}
+
+#slider {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;   
+    min-height: 300px;
+}
+
+/* MAIN SECTION */
+
+#mainSection {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#mainSection #banner1MainSection{
+    min-height: 500px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    filter: opacity(0.55);
+}
+
+#mainSection #banner2MainSection {
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    gap: 2px;
+    filter: opacity(0.55);
+}
+
+#banner1MainSection .article {
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#banner2MainSection .article {
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* css product grid main section (most selled & newest) */
+
+#mainSection .container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    min-width: 100%;
+}
+
+/* On screens that are 600px or less, set... */
+@media screen and (max-width: 720px) {
+    #mainSection .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mainSection #gridNewest {
+        order: 3;
+    }
+
+    #mainSection #banner2MainSection {
+        order: 4;
+    }
+}
+
+.grid-container {
+    min-width: 100%;
+    min-height: 500px; 
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 2px;
+    border: solid black 1px;
+}
+  
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container .grid-item img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+ /* BANNER SECTION */
+
+#bannerSection {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;    
+    margin-top: 20px;
+}
+
+#bannerSection #sectionBanner{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+#bannerSection #sectionBanner1 {
+    height: 400px;
+    background-image: url("../imagenes/banner_technology.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bannerSection #sectionBanner2 {
+    height: 400px;
+    background-image: url("../imagenes/banner_technology.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bannerSection #sectionBanner3 {
+    height: 400px;
+    background-image: url("../imagenes/banner_technology.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* css para el footer */
+
+#footer{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
