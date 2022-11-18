@@ -203,7 +203,7 @@
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
