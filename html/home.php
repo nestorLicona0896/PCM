@@ -20,7 +20,7 @@
         <?php
             $servername = "localhost";
             $username = "root";
-            $password = "123456";
+            $password = "";
             $dbname = "ecommercedb";
 
             // Create connection
@@ -184,15 +184,14 @@
                         </button>
                     </div>
                 </div>
-               
             </div>          
         </div>
 
-        <!--main section-->
+        <!--MAIN SECTION-->
         <div class="container-fluid text-center" id="mainSection">
             <div class="container">
-                <div class="box" id="gridMostSelled">
-                    <!--shop 1 main section-->  
+                <div class="box" id="gridNewest">
+                    <!--NEWEST SECTION-->  
                         <div class="carousel slide" data-bs-ride="carousel" id="demo1">
                             <!-- The slideshow/carousel -->
                             <div class="carousel-inner">
@@ -214,7 +213,7 @@
                                             </div>
                                         </div>
                                         <div class="grid-item">
-                                        <div class="card">
+                                            <div class="card">
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
@@ -263,7 +262,7 @@
                                             </div>
                                         </div>
                                         <div class="grid-item">
-                                        <div class="card">
+                                            <div class="card">
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
@@ -277,7 +276,7 @@
                                             </div>
                                         </div>
                                         <div class="grid-item">
-                                        <div class="card">
+                                            <div class="card">
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
@@ -312,7 +311,7 @@
                                             </div>
                                         </div>
                                         <div class="grid-item">
-                                        <div class="card">
+                                            <div class="card">
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
@@ -326,13 +325,12 @@
                                             </div>
                                         </div>
                                         <div class="grid-item">
-                                        <div class="card">
+                                            <div class="card">
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
                                                     <h2>Ram Tridentz 16 GB RGB  </h2>
                                                     <p class="price">₡99.999</p>
-                                                    
                                                 </div>
                                                 <div class="card-body">
                                                     <p>Some text about the Ram, 1.9 GHz.</p>
@@ -351,28 +349,29 @@
                             <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next" id="flechaSliderDer">
                                 <span class="carousel-control-next-icon"></span>
                             </button>
-                            
                         </div>                           
                 </div>
                 
                 <!--banner 1 main section-->
-                <div class="box" id="banner1MainSection">                    
-                     <div class="article"><img class="demo-bg" src="../imagenes/money.png" alt=""><p>Los mejores precios</p></div>
-                     <div class="article"><img class="demo-bg" src="../imagenes/original.png" alt=""><p>Productos originales</p></div>
-                     <div class="article"><img class="demo-bg" src="../imagenes/warranty.png" alt=""><p>Garantia del proveedor</p></div>
-                     <div class="article"><img class="demo-bg" src="../imagenes/pago.png" alt=""><p>Facilidad de pago</p></div>
-                     <div class="article"><img class="demo-bg" src="../imagenes/credito.png" alt=""><p>Opciones de credito</p></div> 
-                     <div class="article"><img class="demo-bg" src="../imagenes/envios.png" alt=""><p>Envios a todo el pais</p></div>                           
+                <div class="box" id="banner1MainSection">
+                    <div class="article"><img class="demo-bg" src="../imagenes/laptop.png" alt=""><p>Laptops</p></div>
+                    <div class="article"><img class="demo-bg" src="../imagenes/workshop.png" alt=""><p>Taller</p></div>
+                    <div class="article"><img class="demo-bg" src="../imagenes/mod.png" alt=""><p>PC build & Mod</p></div>
+                    <div class="article"><img class="demo-bg" src="../imagenes/pcdesk.png" alt=""><p>Equipos de escritorio</p></div>
                 </div>
+
                 <!--banner 2 main section-->
-                <div class="box" id="banner2MainSection">
-                     <div class="article">1</div>
-                     <div class="article">2</div>
-                     <div class="article">3</div>
-                     <div class="article">4</div>
+                <div class="box" id="banner2MainSection">                    
+                    <div class="article"><img class="demo-bg" src="../imagenes/original.png" alt=""><p>Productos originales</p></div>
+                    <div class="article"><img class="demo-bg" src="../imagenes/warranty.png" alt=""><p>Garantia del proveedor</p></div>
+                    <div class="article"><img class="demo-bg" src="../imagenes/envios.png" alt=""><p>Envios a todo el pais</p></div>                   
+                    <div class="article"><img class="demo-bg" src="../imagenes/money.png" alt=""><p>Los mejores precios</p></div>
+                    <div class="article"><img class="demo-bg" src="../imagenes/pago.png" alt=""><p>Facilidad de pago</p></div>
+                    <div class="article"><img class="demo-bg" src="../imagenes/credito.png" alt=""><p>Opciones de credito</p></div> 
                 </div>
+
                 <!--shop 2 main section-->
-                <div class="box" id="gridNewest">
+                <div class="box" id="gridMostSelled">
                     <div class="carousel slide" data-bs-ride="carousel" id="demo2">
                         <!-- The slideshow/carousel -->
                         <div class="carousel-inner">

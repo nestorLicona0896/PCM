@@ -157,7 +157,7 @@ body div {
     background-color: crimson;
 }
 
-/* css slider */
+/* MAIN SLIDER */
 
 #demo {
     margin: 0;
@@ -183,23 +183,65 @@ body div {
 /* MAIN SECTION */
 
 #mainSection {
-    width: 100%;
     padding: 0px;
     margin: 0px;
+    background-color: azure;
+    border: solid red 2.5px;
+}
+
+#mainSection .container {
+    min-width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: solid red 2.5px;
+}
+
+#mainSection #gridNewest{
+    width: 100%;
+    min-height: 500px;
+}
+
+#mainSection #gridMostSelled{
+    width: 100%;
+    min-height: 500px;
 }
 
 #mainSection #banner1MainSection{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5px;
+}
+
+#banner1MainSection .demo-bg {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    opacity: 0.6;
+    width: 100px;
+    height: 125px;
+}
+
+#mainSection #banner2MainSection {
+    width: 100%;
     min-height: 500px; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    gap: 2px;
-    color: black;
+    gap: 1.5px;
+
 }
 
-.demo-bg {
+#banner2MainSection .demo-bg {
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -207,25 +249,31 @@ body div {
     width: 100px;
 }
 
-#mainSection #banner2MainSection {
-    min-height: 500px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2px;
-    gap: 2px;
-    color: black;
-}
-
 #banner1MainSection .article {
+    min-width: 100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
-    min-height: 100%;
+    border-radius: 2px;
+    display: inline-grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: gray;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32.5px;
+    font-weight: bold;
+}
+
+#banner2MainSection .article {
     min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
     border-radius: 2px;
     display: grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.15);
@@ -235,26 +283,6 @@ body div {
     font-weight: bold;
 }
 
-#banner2MainSection .article {
-    min-height: 100%;
-    min-width: 100%;
-    border-radius: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.15);
-    color: balck;  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* css product grid main section (most selled & newest) */
-
-#mainSection .container {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
-    min-width: 100%;
-}
 
 /* On screens that are 600px or less, set... */
 @media screen and (max-width: 720px) {
@@ -263,7 +291,7 @@ body div {
         flex-direction: column;
     }
 
-    #mainSection #gridNewest {
+    #mainSection #gridMostSelled {
         order: 3;
     }
 
@@ -272,21 +300,21 @@ body div {
     }
 }
 
+/* CSS PARA LOS ITEMS DEL GRID DE PRODUCTOS */
+
 .grid-container {
-    min-width: 100%;
-    min-height: 500px; 
+    width: 100%;
     padding: 0px;
     margin: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border-radius: 2px;
+    gap: 5px;
 }
   
 .grid-item {
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
 
 .grid-container .grid-item img {
@@ -294,16 +322,13 @@ body div {
     height: 200px;
     margin: 0;
     padding: 0;
-    margin-top: 25px;
 }
 
  /* BANNER SECTION */
 
 #bannerSection {
     padding: 0px;
-    margin: 0px;
-    margin-bottom: 20px;    
-    margin-top: 20px;
+    margin: 0px;   
 }
 
 #bannerSection #sectionBanner{

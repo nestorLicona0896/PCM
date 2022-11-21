@@ -5,28 +5,40 @@
 }
 
 .card {
-  max-width: 90%;
-  box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+  width: 100%;
+  max-height: 500px;
+  /*box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  border: solid red 5px;
 }
 
 .card-head {
-  height: 325px;
-  background: lightgoldenrodyellow;
+  height: 350px;
+  border-radius: 3px 3px 0 0;
+  border: solid black 1px;
   /*background: #fa782e;*/
-  border-radius: 5px 5px 0 0;
-  
   /* Old browsers */
   /*background: -moz-linear-gradient(-45deg, #d66b2d 8%, #c82930 83%);
   /* FF3.6-15 */
   /*background: -webkit-linear-gradient(-45deg, #d66b2d 8%, #c82930 83%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,  #e0ecde 8%, #68b2a0  83%);
+  background: linear-gradient(135deg,  #e0ecde 8%, #68b2a0 82%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=' #d66b2d', endColorstr='#c82930', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */ 
-  
+  min-width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body {
+  height: 150px;
+  background: azure;
+  border-radius: 0 0 3px 3px ;
+  border: solid black 1px;
 }
 
 /* PRODUCT'S NAME*/
@@ -35,13 +47,10 @@
   margin: 0;
   padding: 0;
   font-size: 18px;
-  border-left: azure;
-  border-right: azure;
   color: black;
   text-decoration: underline;
   font-weight: bolder;
   margin-left: 5px;
-  margin-top: 30px;
 }
 
 /* PRODUCT'S PRICE  */
@@ -51,6 +60,7 @@
   font-size: 18px;
   background: black;
   color: azure;
+  border: solid black 1px;
 }
 
 .card-body p {
@@ -58,15 +68,7 @@
   padding: 5px;
   font-size: 16px;
   text-align: left;
-  
 }
-
-.card-body {
-  height: 150px;
-  background: azure;
-  border-radius: 0 0 5px 5px;
-}
-
 
 .card-body button {
   border: solid black 2px;
@@ -88,7 +90,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 5px 0 5px 0;
+  border-radius: 3px 0 3px 0;
 }
 
 .sellest {
@@ -99,7 +101,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 5px 0 5px 0;
+  border-radius: 3px 0 3px 0;
 }
 
 #demo #flechaSliderIzq, #demo1 #flechaSliderIzq , #demo2 #flechaSliderIzq{
