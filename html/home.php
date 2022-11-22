@@ -217,7 +217,7 @@
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -231,7 +231,7 @@
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB  </h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB  </h2>
                                                     <p class="price">₡99.999</p>
                                                     
                                                 </div>
@@ -251,7 +251,7 @@
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -266,7 +266,7 @@
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -280,7 +280,7 @@
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB  </h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB  </h2>
                                                     <p class="price">₡99.999</p>
                                                     
                                                 </div>
@@ -300,7 +300,7 @@
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -315,7 +315,7 @@
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -329,7 +329,7 @@
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB  </h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB  </h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -382,7 +382,7 @@
                                                 <div class="card-head">
                                                     <span class="sellest">Los mas vendido</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -397,7 +397,7 @@
                                                 <div class="card-head">
                                                     <span class="sellest">Los mas vendido</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -411,7 +411,7 @@
                                                 <div class="card-head">
                                                     <span class="sellest">Los mas vendido</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB  </h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB  </h2>
                                                     <p class="price">₡99.999</p>
                                                     
                                                 </div>
@@ -431,7 +431,7 @@
                                                 <div class="card-head">
                                                     <span class="sellest">Los mas vendido</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -446,7 +446,7 @@
                                                 <div class="card-head">
                                                     <span class="sellest">Los mas vendido</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -460,7 +460,7 @@
                                                 <div class="card-head">
                                                     <span class="sellest">Los mas vendido</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB  </h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB  </h2>
                                                     <p class="price">₡99.999</p>
                                                     
                                                 </div>
@@ -480,7 +480,7 @@
                                                 <div class="card-head">
                                                     <span class="sellest">Los mas vendido</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -495,7 +495,7 @@
                                                 <div class="card-head">
                                                     <span class="sellest">Los mas vendido</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
@@ -509,7 +509,7 @@
                                                 <div class="card-head">
                                                     <span class="sellest">Los mas vendido</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB RGB  </h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB x2 </h2>
                                                     <p class="price">₡99.999</p>
                                                     
                                                 </div>
@@ -535,20 +535,17 @@
         </div>
 
         <!--info section-->
-        <div class="container-fluid text-center" id="bannerSection">
-
-            <div class="row row-cols-3 m-0 p-0" id="sectionBanner">
-                <div class="col-md-4 col-12" id="sectionBanner1">
-                    
-                </div>
-                <div class="col-md-4 col-12" id="sectionBanner2">
-                    
-                </div>
-                <div class="col-md-4 col-12" id="sectionBanner3">
-                    
-                </div>
-            </div>          
-        </div>
+        <div class="container" id="bannerSection">
+            <div class="box" id="sectionBanner1">
+                <img src="../imagenes/setup1.jpg" alt="">
+            </div>
+            <div class="box" id="sectionBanner2">
+                <img src="../imagenes/setup2.jpg" alt="">
+            </div>
+            <div class="box" id="sectionBanner3">
+                <img src="../imagenes/setup1.jpg" alt="">
+            </div>
+        </div>    
 
         <!--footer-->
         <div class="container-fluid bg-danger text-center text-white" id="footer">
