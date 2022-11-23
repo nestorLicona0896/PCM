@@ -53,7 +53,7 @@
         </div>
 
         <!--nav bar-->
-        <div class ="container-fluid text-white text-center" id="navigationBar">
+        <div class ="container-fluid text-center" id="navigationBar">
             <div class="row row-cols-3 m-0 p-0">
                 <div class="col-md-4 col-12" id="navigationColumn">
                     <nav class="navbar navbar-expand navbar-light p-0">
@@ -98,31 +98,6 @@
                         </div>
                     </nav>
                 </div>
-
-                <div class="col-md-4 col-6" id="navigationColumn">
-                    <nav class="navbar navbar-expand navbar-light p-0">
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <!--Shop menu-->
-                            <ul class="navbar-nav" id="cartSmsMenu">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <img src="../imagenes/cart_logo.png" alt="">
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <img src="../imagenes/msm_logo.png" alt="">
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <img src="../imagenes/id_profile.png" alt="">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
                 <div class="col-md-4 col-6" id="navigationColumn">
                     <nav class="navbar navbar-expand navbar-light p-0">
                         <div class="collapse navbar-collapse" id="navbarNav">
@@ -146,7 +121,35 @@
                             </ul>
                         </div>
                     </nav>
+                </div>                                
+                <div class="col-md-4 col-6" id="navigationColumn">
+                    <nav class="navbar navbar-expand navbar-light p-0">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <!--Shop menu-->
+                            <ul class="navbar-nav" id="cartSmsMenu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <img src="../imagenes/id_profile.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <img src="../imagenes/msm_logo.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <span class="quantity">Articulo(s): 0</span>
+                                        <span class="amount">Total: ₡0.00</span>
+                                        <img src="../imagenes/cart_logo.png" alt="">
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
+                
             </div>       
         </div>        
 
@@ -202,12 +205,15 @@
                                                 <div class="card-head">
                                                     <span class="new">Nuevo</span>
                                                     <img src="../imagenes/RGB-Ram-Transparent.png" alt="Ram" class="product-img">
-                                                    <h2>Ram Tridentz 16 GB-RGB</h2>
+                                                    <h2>Ram Tridentz 16 GB-RGB DDR4 3200</h2>
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>              
+                                                    
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>              
                                                     
                                                 </div>   
                                             </div>
@@ -221,8 +227,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>       
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>      
                                                 </div>   
                                             </div>
                                         </div>
@@ -236,8 +244,10 @@
                                                     
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>      
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>     
                                                 </div>   
                                             </div>
                                         </div>      
@@ -255,8 +265,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>              
+                                                <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>             
                                                     
                                                 </div>   
                                             </div>
@@ -270,8 +282,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>       
+                                                <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>       
                                                 </div>   
                                             </div>
                                         </div>
@@ -285,8 +299,10 @@
                                                     
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>      
+                                                <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>      
                                                 </div>   
                                             </div>
                                         </div>      
@@ -304,8 +320,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>              
+                                                <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>              
                                                     
                                                 </div>   
                                             </div>
@@ -319,8 +337,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>       
+                                                <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>      
                                                 </div>   
                                             </div>
                                         </div>
@@ -333,8 +353,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>      
+                                                <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>      
                                                 </div>   
                                             </div>
                                         </div>      
@@ -386,8 +408,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>              
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>              
                                                     
                                                 </div>   
                                             </div>
@@ -401,8 +425,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>       
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>       
                                                 </div>   
                                             </div>
                                         </div>
@@ -416,8 +442,10 @@
                                                     
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>      
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>      
                                                 </div>   
                                             </div>
                                         </div>      
@@ -435,8 +463,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>              
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>              
                                                     
                                                 </div>   
                                             </div>
@@ -450,8 +480,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>       
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>       
                                                 </div>   
                                             </div>
                                         </div>
@@ -465,8 +497,10 @@
                                                     
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>      
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>      
                                                 </div>   
                                             </div>
                                         </div>      
@@ -484,8 +518,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>              
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>              
                                                     
                                                 </div>   
                                             </div>
@@ -499,8 +535,10 @@
                                                     <p class="price">₡99.999</p>
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>       
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>       
                                                 </div>   
                                             </div>
                                         </div>
@@ -514,8 +552,10 @@
                                                     
                                                 </div>
                                                 <div class="card-body">
-                                                    <p>Some text about the Ram, 1.9 GHz.</p>
-                                                    <button>Añadir al carrito</button>      
+                                                    <button id="less">-</button>
+                                                    <input type="text" id="quantity" value="cantidad">
+                                                    <button id="more">+</button><br><br>
+                                                    <button id="agregar">Añadir al carrito</button>      
                                                 </div>   
                                             </div>
                                         </div>      
