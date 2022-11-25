@@ -247,8 +247,8 @@ body div {
 #demo img {
     margin: 0;
     padding: 0;
-    border: solid #f9f9f9 1px;
-    border-radius: 5px;
+    border: 0px;
+    border-radius: 2px;
     width: 100%;
     min-height: 300px;
 }
@@ -256,45 +256,55 @@ body div {
 #slider {
     padding: 0px;
     margin: 0px;
-    margin-bottom: 10px;   
+    margin-bottom: 50px;   
     min-height: 300px;
 }
 
 /* MAIN SECTION */
 
 #mainSection {
-    padding: 0px;
-    margin: 0px;
-    /*background-color:#1F2B37;*/
-}
-
-#mainSection .container {
-    margin-top: 55px;
-    margin-bottom: 55px;
     min-width: 100%;
     display:grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
     gap: 55px;
-    height: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    #mainSection  {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 #mainSection #gridNewest{
-    width: 100%;
-    min-height: 400px; 
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
-#mainSection #gridMostSelled{
-    width: 100%;
-    min-height: 400px; 
+
+#mainSection #gridMostSelled{ 
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 #mainSection #banner1MainSection{
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 55px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:  1fr;
@@ -306,14 +316,46 @@ body div {
 #mainSection #banner2MainSection {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 200px; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:  1fr 1fr;
+    grid-template-rows:  1fr;
     justify-content: center;
     align-items: center;
     gap: 2.5px;
+}
+
+@media screen and (max-width: 720px) {
+    #mainSection #banner1MainSection  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5px;
+    }
+
+    #mainSection #banner2MainSection  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5px;
+    }
+
+    #mainSection #banner1MainSection .article {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    #mainSection #banner2MainSection .article {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;  
+    }
 }
 
 #banner1MainSection .demo-bg, #banner2MainSection .demo-bg {
@@ -328,10 +370,9 @@ body div {
 }
 
 #banner1MainSection .article {
-    min-width: 100%;
-    min-height: 100%;
     margin: 0;
     padding: 15px;
+    height: 100%;
     border-radius: 2.5px;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -345,10 +386,9 @@ body div {
 }
 
 #banner2MainSection .article {
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 15px;
+    height: 100%;
     border-radius: 2.5px;
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -361,39 +401,42 @@ body div {
     font-weight: bold;
 }
 
-/* On screens that are 600px or less, set...
-@media screen and (max-width: 720px) {
-    #mainSection .container {
-        display: flex;
-        flex-direction: column;
-    }
-}*/
 
 /* CSS PARA LOS ITEMS DEL GRID DE PRODUCTOS */
 
 .grid-container {
-    height: 400px;
-    max-width: 100%;
     padding: 0px;
     margin: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 25px;
+    min-width: 100%;
+}
+
+
+@media screen and (max-width: 720px) {
+    #mainSection .grid-container  {
+        display: flex;
+        flex-direction: column;
+    }
 }
   
 .grid-item {
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid-container .grid-item img {
     display: block;
     margin: 0 auto;
     padding: 0;
+    top: 0;
     width: 242px;
-    height: 220px;
+    height: 235px;
 }
 
  /* BANNER SECTION */
@@ -418,7 +461,7 @@ body div {
 
 #bannerSection #sectionBanner1, #bannerSection #sectionBanner2, #bannerSection #sectionBanner3 {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
     padding: 15px;

@@ -5,8 +5,6 @@
 }
 
 .item {
-  width: 100%;
-  height: 100%; 
   /*box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: grid;
@@ -19,7 +17,7 @@
 
 .item .item-head {
   width: 100%;
-  height: 320px;
+  height: 350px;
   border-left: solid black 1px;
   border-right: solid black 1px;
   border-top: solid black 1px;
@@ -40,14 +38,15 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-rows: 1fr 1fr 6fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 2fr 1fr;
   justify-content: center;
   align-items: center;
 }
 
 .item-body {
   width: 100%;
-  height: 80px;
+  height: 50px;
   margin: 0;
   padding: 0;
   border-left: solid black 1px;
@@ -66,6 +65,17 @@
   align-items: center;
 }
 
+.item .item-body .article .box {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
 /* PRODUCT'S NAME*/
 .item-head .article h2 {
   text-align: left;
@@ -79,6 +89,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  
 }
 
 .item .item-head .article:hover h2 {
@@ -98,19 +109,20 @@
   background: #77f2a1;
   color: #1F2B37;
   border: solid #77f2a1 1px;
+  width: 100%;
+  text-align: center;
 }
 
 .item-body #agregar {
-  border: solid black 2px;
   margin: 0;
-  padding: 0px;
+  padding: 0;
   cursor: pointer;
   font-size: medium;
-  border-radius: 2.5px;
-  background-color: #1F2B37;
-  color: azure;
-  width: fit-content;
-  height: fit-content
+  background-color:  dodgerblue;
+  color: #f9f9f9;
+  width: 100%;
+  height: 100%;
+  border: 0px;
 }
 
 /* On screens that are 600px or less, set... */
@@ -125,21 +137,21 @@
 .item-body #quantity1{
   margin: 0;
   padding: 0;
-  width: 55px;
-  height: fit-content;
-  border-radius: 2.5px;
-
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  border: 0px;
 }
 
 .item-body #less, .item-body #more{
   margin: 0;
   padding: 0;
-  height: fit-content;
-  width: 20px;
-  text-align: center;
-  justify-content: center;
   color: #f9f9f9;
-  background-color: #1F2B37;
+  background-color:#6e1996;
+  width: 100%;
+  height: 100%;
+  font-size: large;
+  border: 0px;
 }
 
 .new {
@@ -147,9 +159,9 @@
   color: #1F2B37;
   padding: 0px;
   text-transform: uppercase;
-  /*display: flex;*/
   width: fit-content;
   height: fit-content;
+  
 }
 
 .sellest {
@@ -157,7 +169,6 @@
   color: #f9f9f9;
   padding: 0px;
   text-transform: uppercase;
-  
   width: fit-content;
   height: fit-content;
 }

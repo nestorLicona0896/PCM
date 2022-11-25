@@ -192,9 +192,8 @@
             </div>
 
             <!--MAIN SECTION-->
-            <div class="container-fluid text-center" id="mainSection">
-                <div class="container">
-                    <!--banner 1 main section-->
+            <div class="container-fluid" id="mainSection">
+                <!--banner 1 main section-->
                     <div class="box" id="banner1MainSection">
                         <div class="article"><img class="demo-bg" src="../imagenes/laptop.png" alt=""><p>Laptops</p></div>
                         <div class="article"><img class="demo-bg" src="../imagenes/workshop.png" alt=""><p>Taller</p></div>
@@ -981,7 +980,6 @@
                             </button>
                         </div>
                     </div>
-                </div>
             </div>
 
             <!--info section-->
