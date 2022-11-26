@@ -4,17 +4,6 @@
   outline: none;
 }
 
-.item {
-  /*box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);*/
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: center;
-  background-color: #f9f9f9;
-}
-
-
 .item .item-head {
   width: 100%;
   height: 350px;

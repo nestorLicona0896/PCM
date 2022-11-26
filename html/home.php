@@ -605,30 +605,29 @@
                             <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="grid-container">
-                                            <div class="grid-item">
-                                                <div class="item">
-                                                    <div class="item-head">
-                                                        <div class="article">
-                                                            <span class="sellest">Mas vendido</span>
-                                                            <img src="../imagenes/RGB-Ram-Transparent.png" class="product-img"> 
-                                                            <h2>Ram Tridentz 16 GB-RGB DDR4 3200</h2>
-                                                            <p class="price">₡99.999</p>  
-                                                        </div>
-                                                    </div>
-                                                    <div class="item-body">
-                                                        <div class="article">
-                                                            <div class="box">
-                                                                <button id="less">-</button>
-                                                                <input type="text" id="quantity1" value="cant">
-                                                                <button id="more">+</button>
-                                                            </div>
-                                                            
-                                                            <button id="agregar">Añadir al carrito</button> 
-                                                        </div>
-                                                    </div>   
-                                                </div>
-                                            </div>                                                   
                                             
+                                            <div class="item">
+                                                <div class="item-head">
+                                                    <div class="article">
+                                                        <span class="sellest">Mas vendido</span>
+                                                        <img src="../imagenes/RGB-Ram-Transparent.png" class="product-img"> 
+                                                        <h2>Ram Tridentz 16 GB-RGB DDR4 3200</h2>
+                                                        <p class="price">₡99.999</p>  
+                                                    </div>
+                                                </div>
+                                                <div class="item-body">
+                                                    <div class="article">
+                                                        <div class="box">
+                                                            <button id="less">-</button>
+                                                            <input type="text" id="quantity1" value="cant">
+                                                            <button id="more">+</button>
+                                                        </div>
+                                                            
+                                                        <button id="agregar">Añadir al carrito</button> 
+                                                    </div>
+                                                </div>   
+                                            </div>
+
                                             <div class="grid-item">
                                                 <div class="item">
                                                     <div class="item-head">
